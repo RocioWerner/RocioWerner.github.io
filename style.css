@@ -1,0 +1,96 @@
+ body {
+	background-color:#94618E;
+	color: #F4DECB;
+	font-family: font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-image:url(images/eggplant_tile.jpg);
+	background-size: 100%;
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	font-family: 'Bree Serif', serif;
+	text-align:center;
+	float:right;
+	width: 80%;
+	top: 0;
+}
+
+header h1 {
+	font-size:64px;
+}
+header h2 {
+	font-size:36px;
+}
+header h3 {
+	font-size:24px;
+}
+nav {
+	background-color:#F4DECB;
+	width: 20%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+}
+nav ul {
+	list-style-type: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+nav li {
+	padding:10px 10px 10px 10px;
+}
+.circle {
+	border-radius:50%;
+	display: block;
+	width: 150px;
+	height: 150px;
+	font-size:24px;
+	color:#FFFFFF;
+	line-height:150px;
+	text-align:center;
+	text-decoration:none;
+	background:#94618E;
+}
+.circle:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	background:#979797;
+}
+.social {
+	text-align: center;
+	padding-top: 20px;
+	margin-right: 20px;
+}
+
+.wrapper {
+	position: relative;
+	width:75%;
+	float: right;
+	display: inline;
+	margin-right: 30px;
+	border: 20px;
+	padding: 20px;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+hr {
+	border: dotted 1px;
+}
+
+.work {
+	display: block;
+}
+
+footer {
+	font-size: 14px;
+	text-align:center;
+	float:right;
+	margin-right: 30px;
+	width: 75%;	
+}
