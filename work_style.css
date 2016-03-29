@@ -32,6 +32,17 @@ header h3 {
 	text-align: left;
 }
 
+.work {
+	width:80%;
+	border: 2px solid;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 10px;
+}
+
 footer {
 	font-size: 12px;
 	text-align:center;
