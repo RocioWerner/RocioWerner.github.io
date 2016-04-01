@@ -1,7 +1,7 @@
  body {
 	background-color:#94618E;
 	color: #F4DECB;
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family: 'Candal', sans-serif;
 }
 
 header {
@@ -9,7 +9,6 @@ header {
 	background-size: 100%;
 	background-repeat: repeat-x;
 	background-color: #FFFFFF;
-	font-family: 'Bree Serif', serif;
 	text-align:center;
 	float:right;
 	width: 80%;
@@ -17,13 +16,13 @@ header {
 }
 
 header h1 {
-	font-size:64px;
+	font-size:80px;
 }
 header h2 {
-	font-size:36px;
+	font-size:50px;
 }
 header h3 {
-	font-size:24px;
+	font-size:40px;
 }
 nav {
 	background-color:#F4DECB;
@@ -49,7 +48,7 @@ nav li {
 	display: block;
 	width: 150px;
 	height: 150px;
-	font-size:24px;
+	font-size:32px;
 	color:#FFFFFF;
 	line-height:150px;
 	text-align:center;
@@ -57,10 +56,13 @@ nav li {
 	background:#94618E;
 }
 .circle:hover {
+	transition: all 3s ease;
+	transform: rotateX(360deg);
 	color:#FFFFFF;
 	text-decoration:none;
 	background:#979797;
 }
+
 .social {
 	text-align: center;
 	padding-top: 20px;
@@ -79,6 +81,18 @@ nav li {
 	text-align: center;
 }
 
+.wrapper h2 {
+	font-size: 40px;
+}
+
+.wrapper h3 {
+	font-size: 32px;
+}
+
+.wrapper p {
+	font-size: 24px;
+}
+
 hr {
 	border: groove 5px;
 	border-color: #F4DECB;
@@ -89,8 +103,8 @@ hr {
 }
 
 .workimage:hover {
-	transition: all 0.5s ease;
-	transform: rotate(-10deg);
+	transition: all 3s ease;
+	transform: rotateY(180deg);
 }
 
 .about {
