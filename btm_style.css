@@ -45,6 +45,15 @@ header h3 {
   font-size: 24px;
 }
 
+.label {
+  color: #4F2F4F;
+  background-color: #F4DECB;
+}
+
+li {
+  list-style-type: none;
+}
+
 #slider-wrapper {
   width: 940px;
   height: 470px;
