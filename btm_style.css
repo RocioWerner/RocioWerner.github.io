@@ -45,6 +45,11 @@ header h3 {
   font-size: 24px;
 }
 
+.narrative {
+  margin: 0;
+  padding: 20px;
+}
+
 .label {
   color: #4F2F4F;
   background-color: #F4DECB;
