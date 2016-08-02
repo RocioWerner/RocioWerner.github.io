@@ -38,6 +38,14 @@ body h3 {
 	color: #FFFFFF;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2F4F4F;
+}
+
 .words {
 	float: right;
 }
@@ -46,16 +54,31 @@ body h3 {
 	font-size: 28px;
 }
 
-.about img {
-	padding: 1px;
-	border: 1px solid #008080;
-	margin: 30px;
+.about {
+	position: relative;
+	overflow: hidden;
+}
+
+.about {
+	height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	background-image: url("images/2016_pitch.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	color: #2F4F4F;
 }
 
 .contact img {
 	padding: 1px;
 	border: 1px solid #008080;
 	margin: 30px;
+}
+
+.social img {
+	border: none;
 }
 
 .footer {
