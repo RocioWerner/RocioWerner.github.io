@@ -1,8 +1,6 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  padding-right: 50px;
-  padding-left: 50px;
   background-color:#50E3C2;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -10,11 +8,19 @@ body {
 }
 
 body h2 {
-	font-size: 40px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
 }
 
 body h3 {
-	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+}
+
+body h4 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
 }
 
 .navbar {
@@ -24,14 +30,12 @@ body h3 {
 .jumbotron {
 	height: auto;
 	width: 100%;
-	background-image: url("images/rw_logo.png");
-	background-size: 40% auto;
-	background-position: left;
-	background-repeat: no-repeat;
+	padding-right: 50px;
+  	padding-left: 50px;
+  	text-align: center;
 	background-color: #FFFFFF;
 	color: #008080;
 }
-
 
 .btn-primary {
 	background: #ffa500;
@@ -80,8 +84,9 @@ a:hover {
 }
 
 .social {
+	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 }
 
 .social ul {
@@ -90,6 +95,7 @@ a:hover {
 }
 
 .social ul li {
+	padding: 10px;
 	margin: 5px;
 	list-style: none;
 	display: inline-block;
